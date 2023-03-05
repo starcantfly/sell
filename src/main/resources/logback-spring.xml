@@ -24,7 +24,7 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>/var/log/tomcat/sellInfo.%d.log</fileNamePattern>
+            <fileNamePattern>/Users/starcantfly/Downloads/log/sell/sellInfo.%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
 
@@ -41,7 +41,7 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>/var/log/tomcat/sellError.%d.log</fileNamePattern>
+            <fileNamePattern>/Users/starcantfly/Downloads/log/sell/sellError.%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
 
